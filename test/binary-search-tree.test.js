@@ -48,7 +48,7 @@ describe('Binary search tree', () => {
       assert.strictEqual(tree.root().data, 2);
     });
 
-    it.optional('find existing values', () => {
+   it.optional('find existing values', () => {
       const tree = new BinarySearchTree();
       tree.add(2);
       tree.add(7);
